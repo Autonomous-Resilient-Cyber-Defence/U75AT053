@@ -66,4 +66,4 @@ if it already exits.
 
 ## Note 
 
-Please nore that this branch contains in-development code / code that needs to be ran on D-Wave. Therefore, there may be unforseen issues with this codebase that may require user edits / debugging. 
+Please note that this branch contains in-development code / code that needs to be ran on D-Wave. Therefore, there may be unforseen issues with this codebase that may require user edits / debugging. For further information, please contact jake.southall@fnc.co.uk
