@@ -1,0 +1,1664 @@
+- item_type: PORTS
+  ports_list:
+    - port: '80'
+- item_type: SERVICES
+  service_list:
+    - name: TCP
+- item_type: NODE
+  node_id: '1'
+  name: PC1
+  node_class: SERVICE
+  node_type: COMPUTER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.1
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '2'
+  name: PC2
+  node_class: SERVICE
+  node_type: COMPUTER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.2
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '3'
+  name: PC3
+  node_class: SERVICE
+  node_type: COMPUTER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.3
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '4'
+  name: PRINTER1
+  node_class: SERVICE
+  node_type: PRINTER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.4
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '5'
+  name: SWITCH1
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.5
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '6'
+  name: SWITCH2
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.6
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '7'
+  name: MS SGAU ROUTER
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.7
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '8'
+  name: CP2 750 SWITCH
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.8
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '9'
+  name: LOW ENC
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.9
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '10'
+  name: LOW ROUTER 1
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.10
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '11'
+  name: BDE SGS
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.11
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '12'
+  name: UKS SGAU ROUTER
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.12
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '13'
+  name: SWITCH3
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.13
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '14'
+  name: UKS TERMINAL
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.14
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '15'
+  name: FALCON CP2
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.15
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '16'
+  name: FALCON 
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.16
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '17'
+  name: FALCON CP3
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.17
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '18'
+  name: CP3 SWITCH
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.18
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '19'
+  name: TACTICAL CLOUD GATEWAY
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.19
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '20'
+  name: TC DC SERVER
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.20
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '21'
+  name: TC BACKUP SERVER
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.21
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '22'
+  name: TC DATABASE SERVER
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.22
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '23'
+  name: TC DATA FUSION SERVER
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.23
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '24'
+  name: UKS SGAU ROUTER
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.24
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '25'
+  name: SWITCH1
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.25
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '26'
+  name: UKS TERMINAL
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.26
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '27'
+  name: UKS SGAU ROUTER
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.27
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '28'
+  name: LDG008 FIREWALL (OR ROUTER)
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.28
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '29'
+  name: ROUTER1
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P2
+  hardware_state: 'ON'
+  ip_address: 192.168.1.29
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '30'
+  name: VHQ SERVER
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.30
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '31'
+  name: BCIP 5.6 TX
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.31
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '32'
+  name: BG-COMD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.32
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '33'
+  name: VHF RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.33
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '34'
+  name: BNAU (SWITCH)
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.34
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '35'
+  name: HCDR RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.35
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '36'
+  name: UCD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.36
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '37'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.37
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '38'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.38
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '39'
+  name: BG-COMD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.39
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '40'
+  name: HCDR RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.40
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '41'
+  name: VHF RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.41
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '42'
+  name: BNAU (SWITCH)
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.42
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '43'
+  name: UCD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.43
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '44'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.44
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '45'
+  name: UDT (GMLRS)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.45
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '46'
+  name: ACOY-COMD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.46
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '47'
+  name: VHF RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.47
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '48'
+  name: BNAU (SWITCH)
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.48
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '49'
+  name: UCD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.49
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '50'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.50
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '51'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.51
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '52'
+  name: HCDR RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.52
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '53'
+  name: ACOY-COMD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.53
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '54'
+  name: VHF RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.54
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '55'
+  name: BNAU (SWITCH)
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.55
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '56'
+  name: UCD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.56
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '57'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.57
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '58'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.58
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '59'
+  name: HCDR RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.59
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '60'
+  name: BCOY-COMD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.60
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '61'
+  name: BCOY-COMD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.61
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '62'
+  name: VHF RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.62
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '63'
+  name: BNAU (SWITCH)
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.63
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '64'
+  name: UCD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.64
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '65'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.65
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '66'
+  name: UDT (GMLRS)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.66
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '67'
+  name: HCDR RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.67
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '68'
+  name: VHF RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.68
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '69'
+  name: BNAU (SWITCH)
+  node_class: ACTIVE
+  node_type: SWITCH
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.69
+  software_state: GOOD
+  file_system_state: GOOD
+- item_type: NODE
+  node_id: '70'
+  name: UCD
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.70
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '71'
+  name: UDT (SA)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.71
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '72'
+  name: UDT (GMLRS)
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P3
+  hardware_state: 'ON'
+  ip_address: 192.168.1.72
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+- item_type: NODE
+  node_id: '73'
+  name: HCDR RADIO
+  node_class: SERVICE
+  node_type: SERVER
+  priority: P5
+  hardware_state: 'ON'
+  ip_address: 192.168.1.73
+  software_state: GOOD
+  file_system_state: GOOD
+  services:
+    - name: TCP
+      port: '80'
+      state: GOOD
+
+- item_type: GREEN_IER
+  id: '151'
+  start_step: 1
+  end_step: 128
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '71'
+  destination: '23'
+  mission_criticality: 5
+- item_type: GREEN_IER
+  id: '152'
+  start_step: 259
+  end_step: 256
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '23'
+  destination: '71'
+  mission_criticality: 5
+
+- item_type: GREEN_IER
+  id: '151'
+  start_step: 1
+  end_step: 128
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '45'
+  destination: '23'
+  mission_criticality: 5
+- item_type: GREEN_IER
+  id: '152'
+  start_step: 129
+  end_step: 256
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '23'
+  destination: '45'
+  mission_criticality: 5
+
+- item_type: GREEN_IER
+  id: '153'
+  start_step: 100
+  end_step: 200
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '21'
+  destination: '22'
+  mission_criticality: 5
+
+- item_type: GREEN_IER
+  id: '154'
+  start_step: 1
+  end_step: 128
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '23'
+  destination: '22'
+  mission_criticality: 5
+- item_type: GREEN_IER
+  id: '155'
+  start_step: 129
+  end_step: 256
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '22'
+  destination: '23'
+  mission_criticality: 5
+
+- item_type: GREEN_IER
+  id: '156'
+  start_step: 1
+  end_step: 128
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '1'
+  destination: '20'
+  mission_criticality: 5
+- item_type: GREEN_IER
+  id: '157'
+  start_step: 129
+  end_step: 256
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '20'
+  destination: '1'
+  mission_criticality: 5
+
+- item_type: GREEN_IER
+  id: '156'
+  start_step: 1
+  end_step: 128
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '2'
+  destination: '20'
+  mission_criticality: 5
+- item_type: GREEN_IER
+  id: '157'
+  start_step: 129
+  end_step: 256
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '20'
+  destination: '2'
+  mission_criticality: 5
+
+- item_type: GREEN_IER
+  id: '158'
+  start_step: 1
+  end_step: 128
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '45'
+  destination: '20'
+  mission_criticality: 5
+- item_type: GREEN_IER
+  id: '159'
+  start_step: 129
+  end_step: 256
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '20'
+  destination: '45'
+  mission_criticality: 5
+
+- item_type: GREEN_IER
+  id: '160'
+  start_step: 1
+  end_step: 128
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '3'
+  destination: '20'
+  mission_criticality: 5
+- item_type: GREEN_IER
+  id: '161'
+  start_step: 129
+  end_step: 256
+  load: 1000
+  protocol: TCP
+  port: '80'
+  source: '20'
+  destination: '3'
+  mission_criticality: 5
+
+- item_type: RED_POL
+  id: '162'
+  start_step: 20
+  end_step: 20
+  targetNodeId: '1'
+  initiator: DIRECT
+  type: SERVICE
+  protocol: TCP
+  state: COMPROMISED
+  sourceNodeId: NA
+  sourceNodeService: NA
+  sourceNodeServiceState: NA
+- item_type: RED_POL
+  id: '163'
+  start_step: 20
+  end_step: 20
+  targetNodeId: '2'
+  initiator: DIRECT
+  type: SERVICE
+  protocol: TCP
+  state: COMPROMISED
+  sourceNodeId: NA
+  sourceNodeService: NA
+  sourceNodeServiceState: NA
+- item_type: RED_IER
+  id: '164'
+  start_step: 30
+  end_step: 128
+  load: 440000000
+  protocol: TCP
+  port: '80'
+  source: '1'
+  destination: '20'
+  mission_criticality: 0
+- item_type: RED_IER
+  id: '165'
+  start_step: 30
+  end_step: 128
+  load: 440000000
+  protocol: TCP
+  port: '80'
+  source: '2'
+  destination: '20'
+  mission_criticality: 0
+- item_type: RED_POL
+  id: '166'
+  start_step: 31
+  end_step: 31
+  targetNodeId: '20'
+  initiator: IER
+  type: SERVICE
+  protocol: TCP
+  state: OVERWHELMED
+  sourceNodeId: NA
+  sourceNodeService: NA
+  sourceNodeServiceState: NA
+
+- item_type: RED_POL
+  id: '167'
+  start_step: 25
+  end_step: 25
+  targetNodeId: '3'
+  initiator: DIRECT
+  type: SERVICE
+  protocol: TCP
+  state: COMPROMISED
+  sourceNodeId: NA
+  sourceNodeService: NA
+  sourceNodeServiceState: NA
+- item_type: RED_IER
+  id: '168'
+  start_step: 30
+  end_step: 128
+  load: 440000000
+  protocol: TCP
+  port: '80'
+  source: '3'
+  destination: '23'
+  mission_criticality: 0
+- item_type: RED_POL
+  id: '169'
+  start_step: 40
+  end_step: 40
+  targetNodeId: '23'
+  initiator: IER
+  type: SERVICE
+  protocol: TCP
+  state: OVERWHELMED
+  sourceNodeId: NA
+  sourceNodeService: NA
+  sourceNodeServiceState: NA
+
+
+- item_type: LINK
+  id: '74'
+  name: link1
+  bandwidth: 100000000
+  source: '1'
+  destination: '45'
+- item_type: LINK
+  id: '75'
+  name: link2
+  bandwidth: 100000000
+  source: '4'
+  destination: '5'
+- item_type: LINK
+  id: '76'
+  name: link3
+  bandwidth: 100000000
+  source: '2'
+  destination: '6'
+- item_type: LINK
+  id: '77'
+  name: link4
+  bandwidth: 100000000
+  source: '3'
+  destination: '6'
+- item_type: LINK
+  id: '78'
+  name: link5
+  bandwidth: 100000000
+  source: '5'
+  destination: '7'
+- item_type: LINK
+  id: '79'
+  name: link6
+  bandwidth: 100000000
+  source: '6'
+  destination: '7'
+- item_type: LINK
+  id: '80'
+  name: link7
+  bandwidth: 100000000
+  source: '7'
+  destination: '8'
+- item_type: LINK
+  id: '81'
+  name: link8
+  bandwidth: 100000000
+  source: '8'
+  destination: '9'
+- item_type: LINK
+  id: '82'
+  name: link9
+  bandwidth: 100000000
+  source: '9'
+  destination: '10'
+- item_type: LINK
+  id: '83'
+  name: link10
+  bandwidth: 100000000
+  source: '10'
+  destination: '11'
+- item_type: LINK
+  id: '84'
+  name: link11
+  bandwidth: 100000000
+  source: '8'
+  destination: '12'
+- item_type: LINK
+  id: '85'
+  name: link12
+  bandwidth: 100000000
+  source: '12'
+  destination: '13'
+- item_type: LINK
+  id: '86'
+  name: link13
+  bandwidth: 100000000
+  source: '13'
+  destination: '14'
+- item_type: LINK
+  id: '87'
+  name: link14
+  bandwidth: 120000
+  source: '15'
+  destination: '16'
+- item_type: LINK
+  id: '88'
+  name: link15
+  bandwidth: 120000
+  source: '16'
+  destination: '17'
+- item_type: LINK
+  id: '89'
+  name: link16
+  bandwidth: 100000000
+  source: '8'
+  destination: '15'
+- item_type: LINK
+  id: '90'
+  name: link17
+  bandwidth: 100000000
+  source: '17'
+  destination: '18'
+- item_type: LINK
+  id: '91'
+  name: link18
+  bandwidth: 100000000
+  source: '18'
+  destination: '19'
+- item_type: LINK
+  id: '92'
+  name: link19
+  bandwidth: 100000000
+  source: '19'
+  destination: '20'
+- item_type: LINK
+  id: '93'
+  name: link20
+  bandwidth: 100000000
+  source: '19'
+  destination: '21'
+- item_type: LINK
+  id: '94'
+  name: link21
+  bandwidth: 100000000
+  source: '19'
+  destination: '22'
+- item_type: LINK
+  id: '95'
+  name: link22
+  bandwidth: 100000000
+  source: '19'
+  destination: '23'
+- item_type: LINK
+  id: '96'
+  name: link23
+  bandwidth: 100000000
+  source: '18'
+  destination: '24'
+- item_type: LINK
+  id: '97'
+  name: link24
+  bandwidth: 100000000
+  source: '24'
+  destination: '25'
+- item_type: LINK
+  id: '98'
+  name: link25
+  bandwidth: 100000000
+  source: '25'
+  destination: '26'
+- item_type: LINK
+  id: '99'
+  name: link26
+  bandwidth: 100000000
+  source: '18'
+  destination: '27'
+- item_type: LINK
+  id: '100'
+  name: link27
+  bandwidth: 100000000
+  source: '27'
+  destination: '28'
+- item_type: LINK
+  id: '101'
+  name: link28
+  bandwidth: 100000000
+  source: '28'
+  destination: '29'
+- item_type: LINK
+  id: '102'
+  name: link29
+  bandwidth: 100000000
+  source: '29'
+  destination: '30'
+- item_type: LINK
+  id: '103'
+  name: link30
+  bandwidth: 100000000
+  source: '29'
+  destination: '31'
+- item_type: LINK
+  id: '104'
+  name: link31
+  bandwidth: 4000
+  source: '31'
+  destination: '32'
+- item_type: LINK
+  id: '105'
+  name: link32
+  bandwidth: 4000
+  source: '32'
+  destination: '33'
+- item_type: LINK
+  id: '106'
+  name: link33
+  bandwidth: 100000000
+  source: '33'
+  destination: '34'
+- item_type: LINK
+  id: '107'
+  name: link34
+  bandwidth: 100000000
+  source: '34'
+  destination: '35'
+- item_type: LINK
+  id: '108'
+  name: link35
+  bandwidth: 100000000
+  source: '34'
+  destination: '36'
+- item_type: LINK
+  id: '109'
+  name: link36
+  bandwidth: 100000000
+  source: '34'
+  destination: '37'
+- item_type: LINK
+  id: '110'
+  name: link37
+  bandwidth: 100000000
+  source: '34'
+  destination: '38'
+- item_type: LINK
+  id: '111'
+  name: link38
+  bandwidth: 500000
+  source: '35'
+  destination: '39'
+- item_type: LINK
+  id: '112'
+  name: link39
+  bandwidth: 4000
+  source: '32'
+  destination: '41'
+- item_type: LINK
+  id: '113'
+  name: link40
+  bandwidth: 500000
+  source: '39'
+  destination: '40'
+- item_type: LINK
+  id: '114'
+  name: link41
+  bandwidth: 100000000
+  source: '40'
+  destination: '42'
+- item_type: LINK
+  id: '115'
+  name: link42
+  bandwidth: 100000000
+  source: '41'
+  destination: '42'
+- item_type: LINK
+  id: '116'
+  name: link43
+  bandwidth: 100000000
+  source: '42'
+  destination: '43'
+- item_type: LINK
+  id: '117'
+  name: link44
+  bandwidth: 100000000
+  source: '42'
+  destination: '44'
+- item_type: LINK
+  id: '118'
+  name: link45
+  bandwidth: 100000000
+  source: '42'
+  destination: '45'
+- item_type: LINK
+  id: '119'
+  name: link46
+  bandwidth: 4000
+  source: '33'
+  destination: '46'
+- item_type: LINK
+  id: '120'
+  name: link47
+  bandwidth: 4000
+  source: '46'
+  destination: '47'
+- item_type: LINK
+  id: '121'
+  name: link48
+  bandwidth: 100000000
+  source: '47'
+  destination: '48'
+- item_type: LINK
+  id: '122'
+  name: link49
+  bandwidth: 100000000
+  source: '48'
+  destination: '49'
+- item_type: LINK
+  id: '123'
+  name: link50
+  bandwidth: 100000000
+  source: '48'
+  destination: '50'
+- item_type: LINK
+  id: '124'
+  name: link51
+  bandwidth: 100000000
+  source: '48'
+  destination: '51'
+- item_type: LINK
+  id: '125'
+  name: link52
+  bandwidth: 100000000
+  source: '48'
+  destination: '52'
+- item_type: LINK
+  id: '126'
+  name: link53
+  bandwidth: 500000
+  source: '35'
+  destination: '53'
+- item_type: LINK
+  id: '127'
+  name: link54
+  bandwidth: 500000
+  source: '53'
+  destination: '52'
+- item_type: LINK
+  id: '128'
+  name: link55
+  bandwidth: 4000
+  source: '46'
+  destination: '54'
+- item_type: LINK
+  id: '129'
+  name: link56
+  bandwidth: 500000
+  source: '53'
+  destination: '59'
+- item_type: LINK
+  id: '130'
+  name: link57
+  bandwidth: 100000000
+  source: '54'
+  destination: '55'
+- item_type: LINK
+  id: '131'
+  name: link58
+  bandwidth: 100000000
+  source: '59'
+  destination: '55'
+- item_type: LINK
+  id: '132'
+  name: link59
+  bandwidth: 100000000
+  source: '55'
+  destination: '56'
+- item_type: LINK
+  id: '133'
+  name: link60
+  bandwidth: 100000000
+  source: '55'
+  destination: '57'
+- item_type: LINK
+  id: '134'
+  name: link61
+  bandwidth: 100000000
+  source: '55'
+  destination: '58'
+- item_type: LINK
+  id: '135'
+  name: link62
+  bandwidth: 100000000
+  source: '62'
+  destination: '63'
+- item_type: LINK
+  id: '136'
+  name: link63
+  bandwidth: 100000000
+  source: '67'
+  destination: '63'
+- item_type: LINK
+  id: '137'
+  name: link64
+  bandwidth: 100000000
+  source: '63'
+  destination: '64'
+- item_type: LINK
+  id: '138'
+  name: link65
+  bandwidth: 100000000
+  source: '63'
+  destination: '65'
+- item_type: LINK
+  id: '139'
+  name: link66
+  bandwidth: 100000000
+  source: '63'
+  destination: '66'
+- item_type: LINK
+  id: '140'
+  name: link67
+  bandwidth: 4000
+  source: '41'
+  destination: '60'
+- item_type: LINK
+  id: '141'
+  name: link68
+  bandwidth: 500000
+  source: '40'
+  destination: '61'
+- item_type: LINK
+  id: '142'
+  name: link69
+  bandwidth: 4000
+  source: '60'
+  destination: '62'
+- item_type: LINK
+  id: '143'
+  name: link70
+  bandwidth: 500000
+  source: '61'
+  destination: '67'
+- item_type: LINK
+  id: '144'
+  name: link71
+  bandwidth: 100000000
+  source: '68'
+  destination: '69'
+- item_type: LINK
+  id: '145'
+  name: link72
+  bandwidth: 100000000
+  source: '69'
+  destination: '73'
+- item_type: LINK
+  id: '146'
+  name: link73
+  bandwidth: 100000000
+  source: '69'
+  destination: '70'
+- item_type: LINK
+  id: '147'
+  name: link74
+  bandwidth: 100000000
+  source: '69'
+  destination: '71'
+- item_type: LINK
+  id: '148'
+  name: link75
+  bandwidth: 100000000
+  source: '69'
+  destination: '72'
+- item_type: LINK
+  id: '149'
+  name: link76
+  bandwidth: 4000
+  source: '60'
+  destination: '68'
+- item_type: LINK
+  id: '150'
+  name: link77
+  bandwidth: 500000
+  source: '61'
+  destination: '73'
+
+
